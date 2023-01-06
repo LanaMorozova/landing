@@ -9,94 +9,97 @@
 </head>
 
 <body>
-    <header class="header">
-        <img src="img/coduniverse.jpeg" alt="Logo"></img>
+    <header>
+        <img src="img/coduniverse.jpeg" alt="Logo">
         <nav>
             <a href="#aboutus"> About us</a>
             <a href="#courses"> Courses </a>
             <a href="#tutors"> Blog </a>
             <a href="#contacts"> Contacts </a>
-            <form action="universe.php">
-                <select>
-                    <option value="en">EN</option>
-                    <option value="ua">UA</option>
-                    <option value="ge">GE</option>
-                </select>
-            </form>
-            <form action="universe1.php">
-                <input type="button" value="Sign up">
-            </form>
+            <select>
+                <option value="en">EN</option>
+                <option value="ua">UA</option>
+                <option value="ge">GE</option>
+            </select>
+            <a href="#bottom"><input type="button" value="Sign up"></a>
         </nav>
     </header>
-    <main>
-        <div>
-            <h1> Yesterday's kids, tomorrow's CREATORS </h1>
-            <p> Online educational platform for digital skills where students make their dreams come true by designing
-                real projects! </p>
-            <input type="button" value="Sign up for the trial class">
-        </div>
-        <div>
-            <img src="img/AdobeStock1.jpeg" alt - "Kid">
-            <h2> CodUniverse - where students create and grow </h2>
-            <p> We help channel the natural creativity of childhood into real games, websites and more – all in a safe
-                and fun environment for kids of all ages</p>
-        </div>
-        <div>
-            <h2> 17.000 creators entered Kodland and... </h2>
-            <div class="box">
-                <p> Acquired hard and soft digital skills at their own tempo </p>
+        <main>
+            <div>
+                <h1> Yesterday's kids, tomorrow's CREATORS </h1>
+                <p> Online educational platform for digital skills where students make their dreams come true by
+                    designing
+                    real projects! </p>
+                <a href="#bottom"><input type="button" value="Sign up for the trial class"></a>
             </div>
-            <div class="box">
-                <p> Brought their own ideas to life from imagination to creation </p>
+            <div>
+                <p><img src="img/AdobeStock1.jpeg" alt="Kid"></p>
+                <h2> CodUniverse - where students create and grow </h2>
+                <p> We help channel the natural creativity of childhood into real games, websites and more - all in a
+                    safe
+                    and fun environment for kids of all ages</p>
             </div>
-            <div class="box">
-                <p> Learned how to control gadgets — not the other way around </p>
+            <div>
+                <h2> 17.000 creators entered Kodland and... </h2>
+                <div class="box">
+                    <p> Acquired hard and soft digital skills at their own tempo </p>
+                </div>
+                <div class="box">
+                    <p> Brought their own ideas to life from imagination to creation </p>
+                </div>
+                <div class="box">
+                    <p> Learned how to control gadgets — not the other way around </p>
+                </div>
             </div>
-        </div>
-        <div>
-            <h2>Here kids choose their own path </h2>
-            <p> With Kodland, kids learn digital skills and practice creating real projects in courses, unleashing their
-                inner artists and entrepreneurial skills in the process</p>
-        </div>
-        <div>
-            <div class="bigbox">
-                <h3> Digital design </h3>
-                <p> Age 8-17 </p>
-                <p> Child imagination brought to life by design tools </p>
+            <div>
+                <h2>Here kids choose their own path </h2>
+                <p> With Kodland, kids learn digital skills and practice creating real projects in courses, unleashing
+                    their
+                    inner artists and entrepreneurial skills in the process</p>
             </div>
-            <div class="bigbox">
-                <h3> Game development </h3>
-                <p> Age 8-17 </p>
-                <p> Creating ang programming real games </p>
+            <div>
+                <div class="bigbox">
+                    <h3> Digital design </h3>
+                    <p> Age 8-17 </p>
+                    <p> Child imagination brought to life by design tools </p>
+                </div>
+                <div class="bigbox">
+                    <h3> Game development </h3>
+                    <p> Age 8-17 </p>
+                    <p> Creating ang programming real games </p>
+                </div>
+                <div class="bigbox">
+                    <h3> Website development </h3>
+                    <p> Age 13-17 </p>
+                    <p> Custom websites on the kid's favourite topics </p>
+                </div>
+                <form action="courses.php">
+                    <input type="button" value="Browse courses">
+                </form>
             </div>
-            <div class="bigbox">
-                <h3> Website development </h3>
-                <p> Age 13-17 </p>
-                <p> Custom websites on the kid's favourite topics </p>
-            </div>
-            <form action="universe1.php">
-                <input type="button" value="Browse courses">
-            </form>
-        </div>
-        <div>
-            <h1> Want to create something like this? </h1>
-            <p> The land of childhood's wonders and creativity are just a few clicks away. Book a free trial class now!
-                We're waiting for you to join our community!
-            </p>
-            <form action="universe.php">
-                <p> <input type="text" placeholder="Name"> </p>
-                <p> <input type="text" placeholder="Age"> </p>
-                <p> <input type="text" placeholder="E-mail"> </p>
-                <p> <input type="text" placeholder="Number"> </p>
-                <p> <input type="checkbox"> I agree with my data to be processed and am aware of the
-                    <a href="#privacypolicy"> Privacy Policy </a>
+            <div>
+                <h1> Want to create something like this? </h1>
+                <p> The land of childhood's wonders and creativity are just a few clicks away. Book a free trial class
+                    now!
+                    We're waiting for you to join our community!
                 </p>
-                <input type="button" value="Sign up for the trial class">
-            </form>
+                <a id="bottom"></a>
+                    <form action="universe.php">
+                        <input type="text" placeholder="Name"> <br>
+                        <input type="text" placeholder="Age"> <br>
+                        <input type="text" placeholder="E-mail"> <br>
+                        <input type="text" placeholder="Number"> <br>
+                        <p> <input type="checkbox"> I agree with my data to be processed and am aware of the
+                            <a href="#privacypolicy"> Privacy Policy </a>
+                        </p>
+                        <input type="button" value="Sign up for the trial class">
+                    </form>
 
-        </div>
+            </div>
 
-    </main>
+            
+
+        </main>
 </body>
 
 </html>
