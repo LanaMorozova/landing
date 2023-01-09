@@ -6,33 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodUniverse</title>
-    <link rel="icon" href="img/icon.jpg" />
+    <link rel="icon" href="img/icon.jpg" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <img src="img/coduniversemain.png" alt="Logo" width="150" height="75">
-        <nav>
-            <a href="#aboutus"> About us</a>
-            <a href="#courses"> Courses </a>
-            <a href="#tutors"> Blog </a>
-            <a href="#contacts"> Contacts </a>
-            <select>
-                <option value="en">EN</option>
-                <option value="ua">UA</option>
-                <option value="ge">GE</option>
-            </select>
-            <a href="#bottom">Sign up</a>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="index.html" class="header__logo-link">
+                <img src="img/coduniversemain.png" class="header__logo" alt="Logo" width="150" height="75">
+            </a>
+            <div class="header__items items">
+                <a href="#aboutus" class="items__choice"> About us</a>
+                <a href="#courses" class="items__choice"> Courses </a>
+                <a href="#tutors" class="items__choice"> Blog </a>
+                <a href="#contacts" class="items__choice"> Contacts </a>
+            </div>
+            <div class="header__language language">
+                <select class="language__selection">
+                    <option value="en">EN</option>
+                    <option value="ua">UA</option>
+                    <option value="ge">GE</option>
+                </select>
+            </div>
+            <div class="header__signup-button signup">
+                <a href="#bottom" class="signup__link">Sign up</a>
+            </div>
         </nav>
-    </header>
-    <main>
-        <div>
-            <h1> Yesterday's kids, tomorrow's CREATORS </h1>
-            <p> Online educational platform for digital skills where students make their dreams come true by
+
+        <div class="header__banner">
+            <h1 class="header__title"> Yesterday's kids, tomorrow's CREATORS </h1>
+            <p class="header__text"> Online educational platform for digital skills where students make their dreams
+                come true by
                 designing
                 real projects! </p>
-            <a href="#bottom">Sign up for the trial class</a>
         </div>
+        <div class="header__signup-button signup">
+            <a href="#bottom" class="signup__link">Sign up for the trial class</a>
+        </div>
+    </header>
+
+    <main class="main">
         <div>
             <p><img src="img/stockphoto.jpeg" alt="Kid"></p>
             <h2> CodUniverse - where students create and grow </h2>
