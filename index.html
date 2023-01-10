@@ -23,12 +23,12 @@
             </div>
             <div class="header__language language">
                 <select class="language__selection">
-                    <option value="en">EN</option>
-                    <option value="ua">UA</option>
-                    <option value="ge">GE</option>
+                    <option value="en" class="language__item">EN</option>
+                    <option value="ua" class="language__item">UA</option>
+                    <option value="ge" class="language__item">GE</option>
                 </select>
             </div>
-            <div class="header__signup-button signup">
+            <div class="header__signup signup">
                 <a href="#bottom" class="signup__link">Sign up</a>
             </div>
         </nav>
@@ -40,86 +40,113 @@
                 designing
                 real projects! </p>
         </div>
-        <div class="header__signup-button signup">
+        <div class="header__signup signup">
             <a href="#bottom" class="signup__link">Sign up for the trial class</a>
         </div>
     </header>
 
     <main class="main">
-        <div>
-            <p><img src="img/stockphoto.jpeg" alt="Kid"></p>
-            <h2> CodUniverse - where students create and grow </h2>
-            <p> We help channel the natural creativity of childhood into real games, websites and more - all in a
-                safe
-                and fun environment for kids of all ages</p>
-        </div>
-        <div>
-            <h2> 17.000 creators entered CodUniverse and... </h2>
-            <div class="box">
-                <p> Acquired hard and soft digital skills at their own tempo </p>
+        <section class="environment">
+            <div class="environment__photos photos">
+                <img src="img/environment_photoboy.png" class="photos__item" alt="Boy" width="300">
+                <img src="img/environment_projectboy.png" class="photos__item" alt="Projectboy" width="300">
+                <img src="img/environment_photogirl.png" class="photos__item" alt="Girl" width="300">
+                <img src="img/environment_projectgirl.png" class="photos__item" alt="Projectgirl" width="300">
             </div>
-            <div class="box">
-                <p> Brought their own ideas to life from imagination to creation </p>
+            <div class="environment__article article">
+                <h2 class="article__main-environment"> CodUniverse - where students create and grow </h2>
+                <p class="article__secondary-environment"> We help channel the natural creativity of childhood into real
+                    games,
+                    websites and more - all in a
+                    safe
+                    and fun environment for kids of all ages</p>
             </div>
-            <div class="box">
-                <p> Learned how to control gadgets — not the other way around </p>
+        </section>
+        <section class="creators">
+            <div class="creators__heading">
+                <h2 class="creators__title"> 17.000 creators entered CodUniverse and... </h2>
             </div>
-        </div>
-        <div>
-            <h2>Here kids choose their own path </h2>
-            <p> With CodUniverse, kids learn digital skills and practice creating real projects in courses, unleashing
-                their
-                inner artists and entrepreneurial skills in the process</p>
-        </div>
-        <div>
-            <div>
-                <h3> Digital design </h3>
-                <p> Age 8-17 </p>
-                <p> Child imagination brought to life by design tools </p>
+            <div class="creators__boxes">
+                <div class="creator__box">
+                    <p class="creator_txt"> Acquired hard and soft digital skills at their own tempo </p>
+                </div>
+                <div class="creator__box">
+                    <p class="creator_txt"> Brought their own ideas to life from imagination to creation </p>
+                </div>
+                <div class="creator__box">
+                    <p class="creator_txt"> Learned how to control gadgets — not the other way around </p>
+                </div>
             </div>
-            <div>
-                <h3> Game development </h3>
-                <p> Age 8-17 </p>
-                <p> Creating ang programming real games </p>
+        </section>
+        <section class="path">
+            <div class="path_article article">
+                <h2 class="article__main-path">Here kids choose their own path </h2>
+                <p class="artcicle__secondary-path"> With CodUniverse, kids learn digital skills and practice creating
+                    real projects in courses,
+                    unleashing
+                    their
+                    inner artists and entrepreneurial skills in the process</p>
             </div>
-            <div>
-                <h3> Website development </h3>
-                <p> Age 13-17 </p>
-                <p> Custom websites on the kid's favourite topics </p>
+        </section>
+        <section class="courses">
+            <div class="courses__boxes">
+                <div class="course__box text">
+                    <h3 class="text__course-option"> Digital design </h3>
+                    <p class="text__course-age"> Age 8-17 </p>
+                    <p class="text__course-description"> Child imagination brought to life by design tools </p>
+                </div>
+                <div class="course__box text">
+                    <h3 class="text__course-option"> Game development </h3>
+                    <p class="text__course-age"> Age 8-17 </p>
+                    <p class="text__course-description"> Creating ang programming real games </p>
+                </div>
+                <div class="course__box text">
+                    <h3 class="text__course-option"> Website development </h3>
+                    <p class="text__course-age"> Age 13-17 </p>
+                    <p class="text__course-description"> Custom websites on the kid's favourite topics </p>
+                </div>
+                <div class="courses__button button">
+                    <a href="#browsecourses" class="button__browse-courses"> Browse courses </a>
+                </div>
             </div>
-            <a href="#browsecourses"> Browse courses </a>
-
-        </div>
-        <div>
-            <h1> Want to create something like this? </h1>
-            <p> The land of childhood's wonders and creativity are just a few clicks away. Book a free trial class
-                now!
-                We're waiting for you to join our community!
-            </p>
-            <a id="bottom"></a>
-            <form action="universe.php">
-                <input type="text" placeholder="Name" required> <br>
-                <input type="text" placeholder="Age" required> <br>
-                <input type="text" placeholder="E-mail" required> <br>
-                <input type="text" placeholder="Number" required> <br>
-                <p> <input type="checkbox" checked> I agree with my data to be processed and am aware of the
-                    <a href="#privacypolicy"> Privacy Policy </a>
+        </section>
+        <section class="application">
+            <div class="application__text text">
+                <h2 class="text__question-application"> Want to create something like this? </h2>
+                <p class="text__call-aplication"> The land of childhood's wonders and creativity are just a few clicks
+                    away. Book a free trial class
+                    now!
+                    We're waiting for you to join our community!
                 </p>
-                <input type="button" value="Sign up for the trial class">
-            </form>
-        </div>
+            </div>
+            <div class="application__form" id="bottom">
+                <form action="universe.php" class="application__boxes">
+                    <input type="text" placeholder="Name" class="box__placeholder" required> <br>
+                    <input type="text" placeholder="Age" class="box__placeholder" required> <br>
+                    <input type="text" placeholder="E-mail" class="box__placeholder" required> <br>
+                    <input type="text" placeholder="Number" class="box__placeholder" required> <br>
+                    <p class="box__privacy-policy inputs">
+                        <input type="checkbox" class="input__checkbox-pricacypolicy" checked> I agree with my data to be
+                        processed
+                        and am aware of the
+                        <a href="#privacypolicy" class="input__link-privacypolicy"> Privacy Policy </a>
+                    </p>
+                    <input type="button" class="signup__link" value="Sign up for the trial class">
+                </form>
+            </div>
+        </section>
     </main>
-    <footer>
-        <div>
-            <p>
+    <footer class="footer">
+        <div class="footer__information infromation">
+            <p class="information__text">
                 CODU limited <br>
                 47 W 13th Street, <br>
                 New York, NY 10011, USA <br>
             </p>
-            <a href="#"><img src="img/facebook.png" alt="Facebook" width="40" height="40"></a>
-            <a href="#"><img src="img/instagram.png" alt="Instagram" width="40" height="40"></a>
-            <a href="#"><img src="img/whatsapp.png" alt="Email" width="40" height="40"></a>
-            <a href="#"><img src="img/email.png" alt="Email" width="40" height="40"></a>
+            <a href="#"><img src="img/facebook.png" class="information__logo" alt="Facebook" width="40" height="40"></a>
+            <a href="#"><img src="img/instagram.png" class="information__logo" alt="Instagram" width="40" height="40"></a>
+            <a href="#"><img src="img/whatsapp.png" class="information__logo" alt="Email" width="40" height="40"></a>
+            <a href="#"><img src="img/email.png" class="information__logo" alt="Email" width="40" height="40"></a>
         </div>
     </footer>
 </body>
