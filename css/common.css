@@ -12,6 +12,7 @@
     font-family: 'Darker Grotesque', sans-serif;
     --text-color: black; 
     --button-color: #5988ff;
+    --box-color: white;
     color: var(--text-color);
     scroll-behavior: smooth;
 }
