@@ -1,7 +1,7 @@
 .header, .header__banner {
     background-color: #d2ff5c;
     background-image: url(https://global-uploads.webflow.com/625943bf84956e8ec14e8bec/625943bf84956e3a3c4e8c2a_hero-bg.jpg);
-    min-height: 685px;
+    min-height: 320px;
     background-size: cover;
     background-position: 50% 50%;
     padding: 10px
@@ -47,13 +47,17 @@
     font-size: 15px;
     color: var(--text-color);
     text-decoration: none;
+    width:15%;
+    margin-top: 10px;
 }
 
-.button {
+.button_smaller, .button_bigger {
     font-size: 16px;
     color: white;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: bold;
+    width:30%;
+    margin-top: 10px;
 }
 
 @media (
@@ -80,36 +84,38 @@
     }
 }
 
-.header__title, .header__title-underline {
-    font-size: 40px;
-    text-align: center;
-    font-weight: 400;
+.header_banner {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-.header__title {
-        background-color: var(--box-color);
-        border: none;
-        color: #333;
-        cursor: pointer;
-        display: inline-block;
-        margin: 0;
-        padding: 18px 20px;
-        text-align: center;
-        text-decoration: none;
-        white-space: nowrap;
-        border-radius: 30px;
-    }
+.header__title-bold {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Bakbak One', cursive;
+    font-weight: 300;
+}
 
-.header__title-underline {
-    background-color: var(--box-color);
-        border: none;
-        color: #333;
-        cursor: pointer;
-        display: inline-block;
-        margin: 0;
-        padding: 18px 20px;
-        text-align: center;
-        text-decoration: none;
-        white-space: nowrap;
-        border-radius: 30px;
+.header__title-bold {
+    background-color: var(--button-color);
+    min-width: 195px;
+    border: none;
+    color: var(--text-colorwhite);
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 17px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 17px;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Darker Grotesque';
+    font-weight: 300;
 }
