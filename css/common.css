@@ -13,6 +13,9 @@
     --text-colordark: black; 
     --button-color: rgb(89, 136, 255);
     --text-colorwhite: white;
+    --button-colorlight: white;
+    --background-color: white;
+    --background-colorboxes: #fffae9;
     color: var(--text-color);
     scroll-behavior: smooth;
 }
@@ -22,6 +25,11 @@
         margin: auto;
 }
 
+.colortext {
+    color:rgb(89, 136, 255);
+    font-weight: 800;
+}
+
 img {
     display: block;
     width: 100%;
@@ -29,17 +37,27 @@ img {
 
 h1 {
     font-size: 30px;
-    text-align: center;
-    font-weight: 350;
+    font-weight: 400;
     background-color: var(--text-colorwhite);
     border: none;
     color: #333;
     cursor: pointer;
     display: inline-block;
-    margin-bottom: 5px;
+    margin: 1%;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
     border-radius: 20px;
 }
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 200;
+}
+
