@@ -1,0 +1,71 @@
+.header {
+    background-color: #d2ff5c;
+    background-image: url(https://global-uploads.webflow.com/625943bf84956e8ec14e8bec/625943bf84956e3a3c4e8c2a_hero-bg.jpg);
+    background-size: cover;
+    padding: 10px
+}
+
+.header__logo {
+    width: 114px;
+    height: 23px;
+    margin-left: 7px;
+    margin-top:9px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+.header__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__language, .signup__link {
+    display: flex;
+    flex-direction: column;
+}
+
+.items__choice {
+    font-size: 16px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.items__choice:hover {
+    text-decoration: underline;
+}
+
+.language__selection {
+    font-size: 15px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.signup__link {
+    font-size: 16px;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+@media (
+    min-width: 990px) {
+    .header__nav {
+        display:flex;
+    }
+
+    .header__items {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 2;
+        padding: 5px;
+
+    }
+
+    .header__language, .signup__link {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+        padding: 5px;
+    }
+}
