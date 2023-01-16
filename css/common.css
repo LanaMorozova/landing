@@ -11,6 +11,7 @@
 :root {
     font-family: 'Darker Grotesque', sans-serif;
     --text-color: black; 
+    --button-color: #5988ff;
     color: var(--text-color);
     scroll-behavior: smooth;
 }
